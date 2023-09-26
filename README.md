@@ -9,6 +9,14 @@ Created:  2023 Apr 10
 
 hikedetective
 =========
+Project Stack:
+
+• Java
+• SQLite
+• JUnit5
+• ML Kit
+• CameraX
+• Android Studio
  
 ![screenflow_1](https://github.com/hubabanyasz/hikedetective/assets/75205647/c3fec815-f42f-418a-b633-899a9464ea60)
 
