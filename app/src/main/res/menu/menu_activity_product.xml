@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/moreButton_menu_activity_product"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="@string/moreButton_title_menu_activity_product"
+        app:iconTint="?attr/colorControlNormal"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/viewPricesMenuOption_menu_activity_product"
+                android:title="@string/viewPricesButton_title_menu_activity_product" />
+
+            <item
+                android:id="@+id/editMenuOption_menu_activity_product"
+                android:title="@string/editButton_title_menu_activity_product" />
+
+            <item
+                android:id="@+id/removeMenuOption_menu_activity_product"
+                android:title="@string/removeButton_title_menu_activity_product" />
+
+        </menu>
+
+    </item>
+
+</menu>

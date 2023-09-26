@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sortOrderButton_action_bar_activity_main"
+        android:contentDescription="@string/sortOrder_contentDescription_action_bar_activity_main"
+        android:icon="@drawable/baseline_sort_24"
+        android:title="@string/sortOrder_title_action_bar_activity_main"
+        app:iconTint="?attr/colorControlNormal"
+        app:showAsAction="always" />
+
+</menu>

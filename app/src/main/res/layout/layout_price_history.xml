@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    tools:context=".PriceHistoryActivity">
+
+    <ImageButton
+        android:id="@+id/removeImageButton_layout_price_history"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:contentDescription="@string/removeImageButton_contentDescription_layout_price_history"
+        android:src="@drawable/baseline_remove_circle_outline_24"
+        android:title="@string/removeImageButton_title_layout_price_history"
+        app:tint="?attr/colorOnPrimary" />
+
+    <TextView
+        android:id="@+id/priceTextView_layout_price_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_toStartOf="@id/linearLayout_layout_price_history"
+        android:layout_toEndOf="@id/removeImageButton_layout_price_history"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/priceLabelTextView_text_layout_price_history"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Body2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_layout_price_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/timestampTextView_layout_price_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="@string/timestampLabelTextView_text_layout_price_history"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Body2" />
+
+        <TextView
+            android:id="@+id/storeTextView_layout_price_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="@string/storeLabelTextView_text_layout_price_history"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Body2" />
+
+    </LinearLayout>
+
+</RelativeLayout>

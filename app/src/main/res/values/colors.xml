@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <color name="black">#DD000000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- Light -->
+    <color name="grey">#4F4F4F</color>
+    <color name="highland">#659A65</color>
+    <color name="hint_of_green">#F7FFF8</color>
+    <color name="wild_sand">#F5F5F5</color>
+    <!-- Dark -->
+    <color name="boulder">#757575</color>
+    <color name="cod_grey">#1E1E1E</color>
+    <color name="dark_grey">#121212</color>
+    <color name="de_york">#89BE89</color>
+    <color name="hunter_green">#0D120D</color>
+    <color name="mine_shaft">#212121</color>
+    <color name="silver_chalice">#A1A1A1</color>
+    <color name="white_87">#DEFFFFFF</color>
+</resources>

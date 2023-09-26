@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.Hikedetective" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary font -->
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="fontFamily">@font/rubik</item>
+        <!-- Primary brand colour -->
+        <item name="colorPrimary">@color/de_york</item>
+        <item name="colorPrimaryVariant">@color/de_york</item>
+        <item name="colorOnPrimary">@color/white_87</item>
+        <!-- Secondary brand colour -->
+        <item name="colorSecondary">@color/de_york</item>
+        <item name="colorSecondaryVariant">@color/de_york</item>
+        <item name="colorOnSecondary">@color/white_87</item>
+        <!-- Background colour -->
+        <item name="android:windowBackground">@color/dark_grey</item>
+        <!-- Status bar style -->
+        <item name="android:statusBarColor">@color/mine_shaft</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- ProductActivity background colour -->
+        <item name="colorTertiary">@color/hunter_green</item>
+        <!-- Gray outline -->
+        <item name="colorTertiaryContainer">@color/silver_chalice</item>
+        <!-- Action bar style -->
+        <item name="actionBarStyle">@style/CustomActionBarStyle</item>
+        <!-- Action bar title colour -->
+        <item name="actionBarTheme">@style/ActionBarTitleColour</item>
+        <!-- Action bar icon colour -->
+        <item name="colorControlNormal">@color/boulder</item>
+    </style>
+
+    <!-- Action bar style -->
+    <style name="CustomActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/mine_shaft</item>
+        <item name="titleTextStyle">@style/ActionBarTitleFont</item>
+    </style>
+
+    <!-- Action bar title style -->
+    <style name="ActionBarTitleFont" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="fontFamily">@font/karla_bold</item>
+    </style>
+
+    <!-- Action bar title colour -->
+    <style name="ActionBarTitleColour" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/boulder</item>
+    </style>
+
+    <!-- Product card style -->
+    <style name="CustomCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cod_grey</item>
+    </style>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="20dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="1dp"
+    app:strokeColor="?attr/colorPrimary"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameTextView_layout_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/nameLabelTextView_text_layout_product"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Body1"
+            app:fontFamily="@font/karla_bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/latestPriceTextView_layout_product"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:maxLines="1"
+                android:text="@string/priceLabelTextView_text_layout_product"
+                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Body2" />
+
+            <TextView
+                android:id="@+id/latestDateTextView_layout_product"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:maxLines="1"
+                android:text="@string/dateLabelTextView_text_layout_product"
+                android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Body2" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/latestStoreTextView_layout_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:maxLines="1"
+            android:text="@string/storeLabelTextView_text_layout_product"
+            android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Body2" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

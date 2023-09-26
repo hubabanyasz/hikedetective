@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.Hikedetective" parent="Theme.MaterialComponents.Light">
+        <item name="android:fontFamily">@font/rubik</item>
+        <item name="fontFamily">@font/rubik</item>
+        <!-- Primary brand colour -->
+        <item name="colorPrimary">@color/highland</item>
+        <item name="colorPrimaryVariant">@color/highland</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand colour -->
+        <item name="colorSecondary">@color/highland</item>
+        <item name="colorSecondaryVariant">@color/highland</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Background colour -->
+        <item name="android:windowBackground">@color/wild_sand</item>
+        <!-- Status bar style -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- ProductActivity background colour -->
+        <item name="colorTertiary">@color/hint_of_green</item>
+        <!-- Gray outline -->
+        <item name="colorTertiaryContainer">@color/grey</item>
+        <!-- Action bar style -->
+        <item name="actionBarStyle">@style/CustomActionBarStyle</item>
+        <!-- Action bar icon colour -->
+        <item name="colorControlNormal">@color/black</item>
+    </style>
+
+    <!-- Action bar style -->
+    <style name="CustomActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/white</item>
+        <item name="titleTextStyle">@style/ActionBarTitleFont</item>
+    </style>
+
+    <!-- Action bar title style -->
+    <style name="ActionBarTitleFont" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="fontFamily">@font/karla_bold</item>
+    </style>
+
+    <!-- Product card style -->
+    <style name="CustomCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+</resources>
