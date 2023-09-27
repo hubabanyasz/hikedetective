@@ -19,5 +19,7 @@ Project Stack:
 • Android Studio
  
 ![screenflow_1](https://github.com/hubabanyasz/hikedetective/assets/75205647/2c967872-e4b9-40dc-be42-9ccfa88cd5f7)
+
 ![screenflow_2](https://github.com/hubabanyasz/hikedetective/assets/75205647/af0214d1-682c-4ac8-bdce-12e3bf5d7c3d)
+
 ![screenflow_3](https://github.com/hubabanyasz/hikedetective/assets/75205647/32762d75-a076-4d54-9e72-90e8a2ad6982)
