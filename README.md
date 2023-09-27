@@ -18,9 +18,6 @@ Project Stack:
 • CameraX
 • Android Studio
  
-![screenflow_1](https://github.com/hubabanyasz/hikedetective/assets/75205647/c3fec815-f42f-418a-b633-899a9464ea60)
-
-![screenflow_2](https://github.com/hubabanyasz/hikedetective/assets/75205647/e92cdebf-df96-42e8-9a6d-661a752040c2)
-
-![screenflow_3](https://github.com/hubabanyasz/hikedetective/assets/75205647/9608ea36-d3a1-48bf-9af6-2e5e65177199)
-
+![screenflow_1](https://github.com/hubabanyasz/hikedetective/assets/75205647/2c967872-e4b9-40dc-be42-9ccfa88cd5f7)
+![screenflow_2](https://github.com/hubabanyasz/hikedetective/assets/75205647/af0214d1-682c-4ac8-bdce-12e3bf5d7c3d)
+![screenflow_3](https://github.com/hubabanyasz/hikedetective/assets/75205647/32762d75-a076-4d54-9e72-90e8a2ad6982)
