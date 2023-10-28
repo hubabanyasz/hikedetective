@@ -3,12 +3,13 @@ Title: hikedetective
 Description: An Android application designed to streamline the process of tracking product prices and inflation over time, addressing expense challenges during the UK’s cost of living crisis
 Author: Huba Banyasz
 Tags: Price Tracker, Android, Barcode Detection, Fully Offline
-Created:  2023 Apr 10
+Created: 2023 Apr 10
 
 ---
 
 hikedetective
 =========
+
 Project Stack:
 
 • Java
